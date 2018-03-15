@@ -1,0 +1,7 @@
+.paket/paket.exe
+.paket/paket.bootstrapper.exe
+paket_files
+node_modules
+public
+bin
+obj
