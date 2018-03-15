@@ -20,10 +20,12 @@
 - Add Elmish React renderer:
     
     paket add Fable.Elmish.React --project .\src\MyProject.fsproj
-    npm i -S react react-dom whatwg-fetch
+    npm i -S react react-dom 
     
-- Add copy-webpack-plugin
+- Other stuff
 
+    npm i -S whatwg-fetch
+    npm i -D babel-plugin-transform-runtime
     npm i -D copy-webpack-plugin
     
 - Add [src/index.html](https://github.com/fable-elmish/sample-react-counter/blob/master/src/index.html) and [webpack.config.js](https://github.com/fable-elmish/sample-react-counter/blob/master/webpack.config.js)

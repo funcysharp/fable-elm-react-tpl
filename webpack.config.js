@@ -24,8 +24,8 @@ var entry = isProduction
         'react-dom',
         'whatwg-fetch',
       ],
-      main: "./src/app.fsproj" }
-  : resolve('./src/app.fsproj');
+      main: "./src/FableElmReactApp.fsproj" }
+  : resolve('./src/FableElmReactApp.fsproj');
 
 var output = isProduction 
   ? { publicPath: "/",

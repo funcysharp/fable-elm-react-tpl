@@ -21,9 +21,10 @@ let init() : Model = 0
 
 // UPDATE
 
-let update (model:Model) = function
-    | Increment -> model + 1
-    | Decrement -> model - 1
+let update msg (model:Model) = 
+    match msg with
+    | Increment -> model + 2
+    | Decrement -> model - 2
 
 open Fable.Core.JsInterop
 open Fable.Helpers.React.Props
@@ -31,7 +32,7 @@ module R = Fable.Helpers.React
 
 // VIEW (rendered with React)
 
-let view dispatch model =
+let view model dispatch =
 
   R.div []
       [ R.button [ OnClick (fun _ -> dispatch Decrement) ] [ R.str "-" ]
