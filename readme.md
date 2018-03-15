@@ -1,4 +1,4 @@
-# Template to start new Fable Application. 
+# Fable Elmish with React renderer Template 
 
 ## Build and run dev server
 
@@ -7,6 +7,27 @@
 - `cd src`
 - `dotnet restore`
 - run `build` or `start` command with `dotnet fable [pckmgr]-[command]` where `[pckmgr]` is: `npm` or `yarn`, `command` is: `build`, `start`.
+
+
+## Create Fable Elmish with React renderer Template from scratch
+
+- `git clone https://github.com/funcysharp/fable-tpl`
+
+- Add Elmish: 
+    
+    paket add Fable.Elmish --project .\src\MyProject.fsproj
+    
+- Add Elmish React renderer:
+    
+    paket add Fable.Elmish.React --project .\src\MyProject.fsproj
+    npm i -S react react-dom whatwg-fetch
+    
+- Add copy-webpack-plugin
+
+    npm i -D copy-webpack-plugin
+    
+- Add [src/index.html](https://github.com/fable-elmish/sample-react-counter/blob/master/src/index.html) and [webpack.config.js](https://github.com/fable-elmish/sample-react-counter/blob/master/webpack.config.js)
+
 
 ## See also
 
