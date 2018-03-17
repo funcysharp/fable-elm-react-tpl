@@ -22,8 +22,8 @@ let init() : Model = 0
 // UPDATE
 
 let update (model:Model) = function
-    | Increment -> model + 2
-    | Decrement -> model - 2
+    | Increment -> model + 1
+    | Decrement -> model - 1
 
 open Fable.Core.JsInterop
 open Fable.Helpers.React.Props
