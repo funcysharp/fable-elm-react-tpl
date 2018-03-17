@@ -20,24 +20,24 @@ NUGET
     Fable.Core (1.3.11)
       FSharp.Core (>= 4.2.3) - restriction: >= netstandard1.6
       NETStandard.Library (>= 1.6.1) - restriction: >= netstandard1.6
-    Fable.Elmish (1.0.1)
-      Fable.Core (>= 1.2.4) - restriction: >= netstandard1.6
-      Fable.PowerPack (>= 1.3) - restriction: >= netstandard1.6
-      FSharp.Core (>= 4.2.3) - restriction: >= netstandard1.6
-    Fable.Elmish.React (1.0.1)
-      Fable.Core (>= 1.3.8) - restriction: >= netstandard1.6
-      Fable.Elmish (>= 1.0.1) - restriction: >= netstandard1.6
-      Fable.PowerPack (>= 1.3.2) - restriction: >= netstandard1.6
-      Fable.React (>= 2.0) - restriction: >= netstandard1.6
-      FSharp.Core (>= 4.2.3) - restriction: >= netstandard1.6
+    Fable.Elmish (2.0.0-beta-2)
+      Fable.Core (>= 1.3.8) - restriction: >= netstandard2.0
+      Fable.PowerPack (>= 1.3.4) - restriction: >= netstandard2.0
+      FSharp.Core (>= 4.3.2) - restriction: >= netstandard2.0
+    Fable.Elmish.React (2.0.0-beta-2)
+      Fable.Core (>= 1.3.8) - restriction: >= netstandard2.0
+      Fable.Elmish (>= 2.0.0-beta-1) - restriction: >= netstandard2.0
+      Fable.PowerPack (>= 1.3.4) - restriction: >= netstandard2.0
+      Fable.React (>= 2.1) - restriction: >= netstandard2.0
+      FSharp.Core (>= 4.3.3) - restriction: >= netstandard2.0
     Fable.Import.Browser (1.1.1)
       Fable.Core (>= 1.3.7) - restriction: >= netstandard1.6
       FSharp.Core (>= 4.2.3) - restriction: >= netstandard1.6
-    Fable.PowerPack (1.3.5) - restriction: >= netstandard1.6
+    Fable.PowerPack (1.3.5) - restriction: >= netstandard2.0
       Fable.Core (>= 1.3.8) - restriction: >= netstandard1.6
       Fable.Import.Browser (>= 1.0) - restriction: >= netstandard1.6
       FSharp.Core (>= 4.2.3) - restriction: >= netstandard1.6
-    Fable.React (2.1) - restriction: >= netstandard1.6
+    Fable.React (3.0) - restriction: >= netstandard2.0
       Fable.Core (>= 1.3.7) - restriction: >= netstandard1.6
       Fable.Import.Browser (>= 0.1) - restriction: >= netstandard1.6
       FSharp.Core (>= 4.2.3) - restriction: >= netstandard1.6
@@ -53,7 +53,7 @@ NUGET
       System.Reflection.TypeExtensions (>= 4.3) - restriction: && (< net45) (>= netstandard2.0)
       System.Runtime.Loader (>= 4.0) - restriction: && (< net45) (>= netstandard2.0)
       System.Security.Cryptography.Algorithms (>= 4.3) - restriction: && (< net45) (>= netstandard2.0)
-    FSharp.Core (4.3.4) - restriction: >= netcoreapp2.0
+    FSharp.Core (4.3.4) - restriction: >= netstandard2.0
     Microsoft.DiaSymReader (1.2) - restriction: >= netcoreapp2.0
       Microsoft.Net.Compilers (>= 2.3) - restriction: || (>= net20) (>= netstandard1.1)
       NETStandard.Library (>= 1.6.1) - restriction: && (< net20) (>= netstandard1.1)
