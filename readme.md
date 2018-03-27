@@ -24,11 +24,11 @@
     
 - Other stuff
 
-    npm i -S whatwg-fetch
     npm i -D babel-plugin-transform-runtime
     npm i -D copy-webpack-plugin
+    ...
     
-- Add [src/index.html](https://github.com/fable-elmish/sample-react-counter/blob/master/src/index.html) and [webpack.config.js](https://github.com/fable-elmish/sample-react-counter/blob/master/webpack.config.js)
+- Add [src/index.html](https://github.com/fable-elmish/sample-react-counter/blob/master/src/index.html) and `webpack.config.js`
 
 
 ## See also
