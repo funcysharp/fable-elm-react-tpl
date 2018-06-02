@@ -2,11 +2,11 @@
 
 ## Build and run dev server
 
-- [Bootstrap Paket](https://gist.github.com/maestrow/94d99017380adbcadff29f048f423729#file-paket-bootstrap-md)
+- [Paket-Bootstrap](https://gist.github.com/maestrow/94d99017380adbcadff29f048f423729#file-paket-bootstrap-md)
 - `npm install` or `yarn install`
 - `cd src`
 - `dotnet restore`
-- `dotnet fable {npm|yarn}-{build|start}`.
+- `dotnet fable {npm|yarn}-{build|start}`. Or `dotnet fable start` and then `npm {build|start}`
 
 
 ## Create Fable Elmish with React renderer Template from scratch
