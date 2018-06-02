@@ -64,7 +64,7 @@ module.exports = (env, argv) => ({
     commonPlugins.concat([
       new ExtractTextPlugin('style.[contenthash].css'),
       new CopyWebpackPlugin([
-        { from: './public' }
+        { from: './src' }
       ]),
       // ensure that we get a production build of any dependencies
       // this is primarily for React, where this removes 179KB from the bundle

@@ -6,7 +6,7 @@
 - `npm install` or `yarn install`
 - `cd src`
 - `dotnet restore`
-- run `build` or `start` command with `dotnet fable [pckmgr]-[command]` where `[pckmgr]` is: `npm` or `yarn`, `command` is: `build`, `start`.
+- `dotnet fable {npm|yarn}-{build|start}`.
 
 
 ## Create Fable Elmish with React renderer Template from scratch
@@ -34,3 +34,12 @@
 ## See also
 
 - [Create Fable Application manually from scratch](https://gist.github.com/maestrow/70ed3fcee7127cac9b860923ea5e76a2)
+
+
+## Packages update
+
+Be carefull when update webpack related packages. It always unpredictable.
+
+- https://github.com/webpack/webpack-cli/issues/477
+
+Always check `npm run build` and `npm run start` (after `dotnet fable start`) commands before commit package updates.
